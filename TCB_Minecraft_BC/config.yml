@@ -1,0 +1,57 @@
+listeners:
+- query_port: 25001
+  motd: ''
+  tab_list: GLOBAL_PING
+  query_enabled: true
+  proxy_protocol: false
+  forced_hosts:
+    play.miaomc.cn: lobby
+  ping_passthrough: false
+  priorities:
+  - lobby
+  bind_local_address: true
+  host: 0.0.0.0:25001
+  max_players: -1
+  tab_size: 60
+  force_default_server: true
+remote_ping_cache: -1
+network_compression_threshold: 32
+permissions:
+  default:
+  - null
+  Owner:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - playerbalancer.admin
+  - bungeecord.command.server
+log_pings: true
+connection_throttle_limit: 10000
+server_connect_timeout: 5000
+timeout: 30000
+stats: 5d7f633c-5850-44e2-b8d8-890b0845643a
+player_limit: 85
+ip_forward: true
+groups:
+  KumaAli:
+  - Owner
+  znc15:
+  - Owner
+remote_ping_timeout: 5000
+connection_throttle: 4000
+log_commands: false
+prevent_proxy_connections: false
+online_mode: false
+forge_support: true
+disabled_commands:
+- lpb
+servers:
+  lobby:
+    motd: '&1TCBWork_Lobby#1'
+    address: 127.0.0.1:25003
+    restricted: false
+  sur1:
+    motd: '&1TCBWork_Survive#1'
+    address: 127.0.0.1:25004
+    restricted: false
