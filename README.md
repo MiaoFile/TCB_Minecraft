@@ -1,2 +1,2 @@
-# TCB_Minecraft
+# TCBMC
 TCB Work Minecraft Server
