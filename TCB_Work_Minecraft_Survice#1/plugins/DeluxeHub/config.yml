@@ -1,0 +1,390 @@
+#    ____       __                __  __      __       _____
+#   / __ \___  / /_  ___  _____  / / / /_  __/ /_     |__  /
+#  / / / / _ \/ / / / / |/_/ _ \/ /_/ / / / / __ \     /_ <
+# / /_/ /  __/ / /_/ />  </  __/ __  / /_/ / /_/ /   ___/ /
+#/_____/\___/_/\__,_/_/|_|\___/_/ /_/\__,_/_.___/   /____/
+#
+# 作者: Lewis D (ItsLewizzz)
+# 搬运者：Mr.阿冬（我的世界中文论坛 UID: 2650203）
+# WIKI: https://wiki.lewisdev.fun/free-resources/deluxehub
+# Copyright Lewis D 2020. All rights reserved.
+#--------
+# 自定义菜单
+#   你可以将更多菜单添加到“DeluxeHub/menus”目录
+#   复制并粘贴默认值、服务器选择器、菜单并编辑文件
+#   使用文件名作为操作ID
+#--------
+# 插件内置PLACEHOLDERS（占位符）:
+#
+#   %player% - 玩家名
+#   %location% - 玩家位置
+#   %online% - 当前在线人数
+#   %online_max% - 最大在线人数
+# 
+#        *** 使用 PLACEHOLDER API 获取更多内容 ***
+#  (https://www.spigotmc.org/resources/placeholderapi.6245/)
+#--------
+# 操作类型:
+#
+# [MESSAGE] - 发送一条消息给玩家
+# [BROADCAST] - 给所有人发送一条消息（相当于公告）
+# [TITLE] 例如 MainTitle;Subtitle;FadeIn;Stay:FadeOut - 向玩家发送一条标题消息
+# [ACTIONBAR] 发送一条（血量条？？）消息
+# [SOUND] - 向玩家播放声音
+# [COMMAND] - 玩家执行一条指令
+# [CONSOLE] - 控制台执行一条指令
+# [GAMEMODE] - 改变玩家的游戏模式
+# [BUNGEE] - 将玩家传送到服务器
+# [EFFECT] 例如 EFFECT;LEVEL - 给予一个药水效果
+# [MENU] - 从 (plugins/DeluxeHub/menus)打开菜单
+# [CLOSE] - 关闭打开的GUI
+#--------
+# 邮件消息:
+# #<hex-code> - Hex（16进制？？） 聊天颜色 (需要 Spigot 1.16+) (例如 '#<5fad95>Hello!')
+# <center> 居中消息! </center> - 在聊天栏居中一条消息
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | 基本设置                         |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+# 检查最新的SpigotMC更新（作者是推荐，但我认为不推荐，故改为了false，如有需要可自行调整为true）。
+check-updates: false
+
+# 列出你不想让 DeluxeHub 管理的世界
+disabled-worlds:
+  # Should we invert the list making it a whitelist rather than a blacklist?（求大佬帮忙翻译）
+  invert: false
+  # 列出你的世界，你可以设置为 'worlds: {}' 将其禁用
+  worlds:
+    - world
+    - world_the_end
+    - world_nether
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | 反世界下载                    | 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+# 阻止玩家通过世界下载程序MOD 下载你的世界
+anti_wdl:
+  # 启用吗?
+  enabled: true
+
+  # 玩家触发 'deluxehub.antiwdl.alert' 会被通知吗?
+  notify_admins: true
+
+  # 如果玩家正在运行WDL（世界下载程序），那么就没有必要踢他，因为我们的系统会自动连接到mod中，以防止世界下载
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | 计分板                               |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+scoreboard:
+  # 是否启用计分板？
+  enabled: false
+
+  # 是否延迟出现计分板？
+  # 时间单位为ticks（20 ticks=1秒），0表示禁用
+  display_delay:
+    server_enter: 60 # 3 seconds
+    world_change: 40 # 2 seconds
+
+  # 是否刷新记分板（更新占位符）吗
+  refresh:
+    enabled: true
+    rate: 200 # In ticks (20 ticks = 1 second)
+
+  title: '&d&lDeluxeHub 3 &7(%online%/%online_max%)'
+  lines:
+    - '&7&m----------------------'
+    - '&e&lPlayer:'
+    - '  &f%player%'
+    - ''
+    - '&e&lRank:'
+    - '  &f%vault_rank%'
+    - '&7&m----------------------'
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# |TAB栏                                     |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+tablist:
+  # 是否启用？
+  enabled: true
+
+  # 是否刷新TAB栏（更新占位符）吗
+  refresh:
+    enabled: true
+    rate: 400 # In ticks (20 ticks = 1 second)
+
+  # 修改TAB栏的标题
+  header:
+    - ''
+    - '&d&lTCB Work服务器 &7(%online%/%online_max%) '
+    - ''
+
+  # 修改TAB栏的最下面的那个
+  footer:
+    - ''
+    - '&6&l网站 &fwww.tcbmc.cc'
+    - '&e&lQQ群 &f1048891374'
+    - ''
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | 自动公告                           |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+announcements:
+  # 启用吗？
+  enabled: false
+
+  # 延迟多少秒发送 (秒)
+  delay: 60
+
+  # 需要多少个玩家才发送公告
+  required_players: 1
+
+  sound:
+    enabled: true
+    value: BLOCK_NOTE_BLOCK_PLING
+    volume: 1.0
+    pitch: 1.0
+
+  # 公告列表
+  announcements:
+    test1:
+      - '&r'
+      - '<center>&e&l记得签到哦</center>'
+      - '<center>&7使用/signin gui可以签到！</center>'
+      - '&r'
+    test2:
+      - '&r'
+      - '<center>&e&l欢迎加QQ群</center>'
+      - '<center>&7QQ号：690216634</center>'
+      - '&r'
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | 发射台（这个功能不是太会翻译）           |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+launchpad:
+  # 启用吗？
+  enabled: true
+
+  # 发射距离(最大 4.0)
+  launch_power: 3.0
+  launch_power_y: 1.0
+
+  # 制作发射台所需的顶部和底部方块
+  top_block: STONE_PRESSURE_PLATE
+  bottom_block: REDSTONE_BLOCK
+
+  # 使用发射台执行的动作
+  actions:
+    - '[SOUND] ENTITY_BAT_TAKEOFF'
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | 二段跳                                   |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+double_jump:
+  # 启用吗？
+  enabled: false
+
+  # 二段跳距离 (最大 4.0)
+  launch_power: 1.0
+  launch_power_y: 0.9
+
+  # 冷却时间（秒）（0表示禁用）
+  cooldown: 5
+
+  # 使用二段跳执行的动作
+  actions:
+    - '[SOUND] ENTITY_BAT_TAKEOFF'
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | 聊天管理                                 |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+command_block:
+  # 启用吗？
+  enabled: true
+
+  # 列出禁用的指令
+  blocked_commands:
+    - /pl
+    - /plugins
+    - /?
+    - /bukkit:?
+    - /bukkit:plugins
+    - /bukkit:pl
+    - /bukkit:help
+    - /ver
+    - /version
+    - /bukkit:version
+    - /bukkit:ver
+
+anti_swear:
+  # 启用反脏话吗？
+  enabled: false
+
+  # 列出需要禁止的脏话内容（中文别忘了''）
+  blocked_words:
+    - fuck
+    - shit
+    - bitch
+    - sb
+    - nmsl
+    - 你妈死了
+    - nt
+    - 脑瘫
+    - 傻逼
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | 世界项目设置                     |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+world_settings:
+
+  # 玩家
+  disable_hunger_loss: true
+  disable_fall_damage: true
+  disable_player_pvp: true
+  disable_void_death: true
+  disable_fire_damage: true
+  disable_drowning: true
+  disable_off_hand_swap: true # Requires 1.9+
+
+  # Misc
+  disable_weather_change: true
+  disable_death_message: true
+  disable_mob_spawning: true
+
+  # Item entities
+  disable_item_drop: true
+  disable_item_pickup: true
+
+  # Blocks
+  disable_block_break: true
+  disable_block_place: true
+  disable_block_interact: true # Chest, furnace, crop tample, etc
+  disable_block_burn: true
+  disable_block_fire_spread: true
+  disable_block_leaf_decay: true
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | 玩家加入提示                        |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+join_leave_messages:
+  # 启用吗？
+  enabled: true
+
+  # 如果不发送请设置为''
+  join_message: '&2&l+ &7欢迎 &6%player% &7加入游戏'
+  quit_message: '&4&l- &6%player% &7离开游戏'
+
+# 加入执行的操作
+join_events:
+  - '[MESSAGE] &8&m+---------------***---------------+'
+  - '[MESSAGE] &r'
+  - '[MESSAGE] &r    &7欢迎, &b&n%player%&r &7来到生存一服准备区'
+  - '[MESSAGE] &r'
+  - '[MESSAGE] &r  &2&l官方网站 &fwww.tcbmc.cc'
+  - '[MESSAGE] &r  &3&l官方QQ群 &f1048891374'
+  - '[MESSAGE] &r  &9&l联合封禁列表 &fban.tcbmc.cc'
+  - '[MESSAGE] &r'
+  - '[MESSAGE] &r            &7&oTCB Work 服务器'
+  - '[MESSAGE] &8&m+---------------***---------------+'
+  - '[TITLE] &b&l欢迎玩家;&f%player%;1;2;1'
+  - '[SOUND] ENTITY_PLAYER_LEVELUP'
+  - '[GAMEMODE] survival'
+  - '[EFFECT] SPEED;1'
+
+join_settings:
+  # 是否登录服务器将玩家传送至出生点（如果设置）？
+  spawn_join: true
+  # 治疗玩家吗？
+  heal: true
+  # 熄灭玩家的火吗？
+  extinguish: true
+  # 清理物品吗？
+  clear_inventory: true
+  # 加入时燃放烟花
+  firework:
+    # 在加入时燃放烟花吗？
+    enabled: true
+    # 只在他们第一次加入时送烟花吗？
+    first_join_only: false
+
+    type: BALL_LARGE
+    power: 1
+    flicker: true
+    trail: true
+    colors:
+      - AQUA
+      - RED
+      - TEAL
+      - WHITE
+
+custom_join_items:
+  # Should custom join items be enabled?
+  enabled: true
+  # Should we prevent them from moving/dropping the items?
+  disable_inventory_movement: true
+
+  items:
+    infobook:
+      material: BOOK
+      amount: 1
+      slot: 0
+      display_name: "&d服务器的信息"
+      lore:
+        - "&7右击可以查看服务器的更多信息!"
+      actions:
+        - "[MESSAGE] &8&m+---------------***---------------+"
+        - "[MESSAGE] &r"
+        - "[MESSAGE] &r"
+        - "[MESSAGE] &b官方网站: &fwww.tcbmc.cc"
+        - "[MESSAGE] &c官方QQ群: &f1048891374"
+        - "[MESSAGE] &d联合封禁列表: &fban.tcbmc.cc"
+        - "[MESSAGE] &r"
+        - "[MESSAGE] &r"
+        - "[MESSAGE] &8&m+---------------***---------------+"
+    server_selector:
+      material: NETHER_STAR
+      amount: 1
+      slot: 4
+      display_name: "&e打开传送菜单"
+      lore:
+        - "&7右击可以打开菜单!"
+      actions:
+        - "[COMMAND] cc open sj"
+      
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | 玩家隐藏                             |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+player_hider:
+  # 启用玩家隐藏吗？
+  enabled: true
+  # 将隐藏物品放到哪个物品槽呢？
+  slot: 8
+  # 阻止他们移动/丢弃物品吗？
+  disable_inventory_movement: true
+  # 冷却时间（秒）
+  # （0表示禁用）
+  cooldown: 5
+
+  not_hidden:
+    material: LIME_DYE
+    amount: 1
+    display_name: '&d玩家 &8&l> &a开启显示 &7(右击关闭)'
+    lore:
+      - '&7将对所有玩家隐藏自己'
+
+  hidden:
+    material: GRAY_DYE
+    amount: 1
+    display_name: '&d玩家 &8&l> &c关闭显示 &7(右击开启)'
+    lore:
+      - '&7将对所有玩家显示自己'

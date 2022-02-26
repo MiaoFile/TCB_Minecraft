@@ -1,0 +1,25 @@
+menu-settings:
+  name: '传送菜单'
+  rows: 1
+a3:
+  MATERIAL: light_blue_wool
+  POSITION-X: 3
+  POSITION-Y: 1
+  NAME: '主城'
+  LORE:
+    - '马上回到主城！'
+  KEEP-OPEN: false
+  ACTIONS:
+    - 'server:lobby'
+#a#a3
+a7:
+  MATERIAL: green_wool
+  POSITION-X: 7
+  POSITION-Y: 1
+  NAME: 'Java模组服'
+  LORE:
+    - '还没搭建完！！！！'
+  KEEP-OPEN: false
+  ACTIONS:
+    - 'server:sur2'
+#a#a7

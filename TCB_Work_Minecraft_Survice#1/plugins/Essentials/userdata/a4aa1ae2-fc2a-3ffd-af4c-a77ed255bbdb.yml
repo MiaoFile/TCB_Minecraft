@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1644741286786
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1644749655918
+  login: 1644749473734
+money: '0'
+last-account-name: YangXiaoMian2233
+lastlocation:
+  world: e49f1d89-9314-4c0a-bf7c-3742cc528d9d
+  world-name: read
+  x: 282.7621065924568
+  y: 4.0
+  z: -146.816617544578
+  yaw: -84.7500228881836
+  pitch: 1.200026512145996
+logoutlocation:
+  world: 3f1d9754-045e-42fb-997a-bddc36215e81
+  world-name: world
+  x: 65.36237028428489
+  y: 97.0
+  z: -49.35688691093145
+  yaw: 39.60004425048828
+  pitch: -0.299990713596344

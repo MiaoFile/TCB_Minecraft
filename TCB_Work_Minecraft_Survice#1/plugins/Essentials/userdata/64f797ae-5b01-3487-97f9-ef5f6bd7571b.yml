@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 58.22.16.20
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1644736528596
+  login: 1644736503346
+money: '0'
+last-account-name: UpwindFeather21
+lastlocation:
+  world: 3f1d9754-045e-42fb-997a-bddc36215e81
+  world-name: world
+  x: 72.5
+  y: 97.0
+  z: -48.5
+  yaw: 3.223639726638794
+  pitch: 0.0
+logoutlocation:
+  world: 3f1d9754-045e-42fb-997a-bddc36215e81
+  world-name: world
+  x: 59.30001
+  y: 96.0
+  z: -43.876896
+  yaw: -62.17627716064453
+  pitch: 32.314788818359375

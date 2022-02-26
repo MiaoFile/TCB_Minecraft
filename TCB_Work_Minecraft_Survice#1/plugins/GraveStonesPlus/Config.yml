@@ -1,0 +1,31 @@
+DebugLevel: NONE
+
+# if enabled, you can break other graves with permission:
+# GraveStonesPlus.BreakOtherGraves
+# 若启用, 那么玩家将可以使用上述权限破坏他人墓穴
+BreakOtherGravesWithPermission: false
+
+# List of worlds with graves disabled
+# 黑名单世界
+DisabledWorlds: []
+
+# Enable a glowing effect near grave
+# 方便寻找, 为墓碑设置发光效果
+GlowingEffectNearGrave: true
+# Distance for glowing effect
+# 显示该效果的距离半径
+GlowingEffectDistance: 30
+
+# Timelimit in minutes before grave is removed
+# -1 is disabled
+# 自动移除墓碑的时间限制
+# 设置为 -1 禁用该功能
+GraveTimeLimit: -1
+
+Format:
+  Death: '你的墓碑位于 %x%, %y%, %z%'
+  GraveBroke: '你破坏了你的墓碑!'
+  ItemsNotInCorrectSlot: "部分物品未正确返还"
+  NotYourGrave: '这个墓碑不是你的!'
+
+  

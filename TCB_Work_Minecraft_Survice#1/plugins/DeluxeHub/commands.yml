@@ -1,0 +1,58 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | 自定义指令                          |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# 如果在此处修改以下内容，则无需重新启动服务器
+
+custom_commands:
+
+  # 指令名，这将用作主指令
+  website:
+    # 在此处列出该指令的所有别名
+    aliases:
+      - web
+    # 要执行的操作
+    actions:
+      - '[MESSAGE] &b网站: &fwww.mcbbs.net'
+  clearinventory:
+    # 玩家需要此权限节点才能执行此指令。
+    permission: deluxehub.clearinventory
+    aliases:
+      - ci
+    actions:
+      - '[CONSOLE] minecraft:clear %player%'
+      - '[MESSAGE] &dDeluxeHub &e已被清理！'
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# | DELUXEHUB 指令                       |
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# 如果您修改以下内容，强烈建议您重新启动服务器
+
+commands:
+  gamemode:
+    enabled: true
+    aliases:
+      - gm
+  gms:
+    enabled: true
+  gmc:
+    enabled: true
+  gma:
+    enabled: true
+  gmsp:
+    enabled: true
+  clearchat:
+    enabled: true
+  fly:
+    enabled: true
+  lockchat:
+    enabled: true
+    aliases:
+      - lc
+  setlobby:
+    enabled: true
+  lobby:
+    enabled: true
+  vanish:
+    enabled: true
+    aliases:
+      - v

@@ -1,0 +1,38 @@
+timestamps:
+  login: 1644689981475
+  logout: 1644690099533
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+lastlocation:
+  world: 3f1d9754-045e-42fb-997a-bddc36215e81
+  x: 71.5
+  y: 97.0
+  z: -46.5
+  yaw: 0.717497706413269
+  pitch: 0.0
+  world-name: world
+logoutlocation:
+  world: 3f1d9754-045e-42fb-997a-bddc36215e81
+  x: 81.74369395554992
+  y: 95.0
+  z: 35.83406935412936
+  yaw: -92.1036376953125
+  pitch: 14.850006103515625
+  world-name: world
+ip-address: 112.49.197.155
+last-account-name: znc15
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+money: '0'

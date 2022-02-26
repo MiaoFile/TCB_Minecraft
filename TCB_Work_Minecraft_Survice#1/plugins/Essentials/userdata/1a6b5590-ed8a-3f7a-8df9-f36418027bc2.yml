@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 112.96.112.134
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1644741070142
+  login: 1644740695459
+money: '0'
+last-account-name: Dedrimer
+lastlocation:
+  world: 3f1d9754-045e-42fb-997a-bddc36215e81
+  world-name: world
+  x: 68.472946
+  y: 96.0
+  z: -23.672049
+  yaw: -134.6864013671875
+  pitch: 16.04510498046875
+logoutlocation:
+  world: 3f1d9754-045e-42fb-997a-bddc36215e81
+  world-name: world
+  x: -4.2999983
+  y: 64.0
+  z: -102.30001
+  yaw: -43.396942138671875
+  pitch: 84.71316528320312

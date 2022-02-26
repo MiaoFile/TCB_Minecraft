@@ -1,0 +1,78 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# 插件消息设置
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+Messages:
+  GENERAL:
+    PREFIX: '&dTCBMC &8❙'
+    NO_PERMISSION: '%prefix% &c你不能使用这个。'
+    CUSTOM_COMMAND_NO_PERMISSION: '&c你没有被允许使用该指令。'
+    INVALID_PLAYER: '%prefix% &c%player% 没有在线！'
+    CONFIG_RELOAD: '%prefix% &a 所有配置文件已在 &7%time%ms 重新加载！'
+    COOLDOWN_ACTIVE: '%prefix% &c你必须等待&e%time%s &c后再次操作！'
+
+  GAMEMODE:
+    GAMEMODE_CHANGE: '%prefix% &7你已将游戏模式更改为&a%gamemode%'
+    GAMEMODE_CHANGE_OTHER: '%prefix% &7你已将 &e%player% 的游戏模式更改为&a%gamemode% '
+    GAMEMODE_INVALID: '%prefix% &e%gamemode% &c不是正确的模式'
+
+  VANISH:
+    ENABLE: '%prefix% &a你已隐身他人'
+    DISABLE: '%prefix% &c你已取消隐身他人'
+
+  FLIGHT:
+    ENABLE: '%prefix% &a你已启用攻击'
+    DISABLE: '%prefix% &c你已关闭攻击'
+    ENABLE_OTHER: '%prefix% &c你为 &7%player% &c开启了攻击'
+    DISABLE_OTHER: '%prefix% &c你为 &7%player% &c关闭了攻击'
+
+  PLAYER_HIDER:
+    HIDDEN: '%prefix% &c玩家隐藏已开启'
+    SHOWN: '%prefix% &a玩家隐藏已关闭'
+
+  LOBBY:
+    SET_LOBBY: '%prefix% &a你已成功设置大厅出生点'
+
+  CHAT:
+    CLEARCHAT: '&b&l* &f聊天已被 &e%player% &f清除&b&l*'
+    CLEARCHAT_PLAYER: '&c你的聊天已被管理员清除'
+
+    LOCKED: '%prefix% &c聊天已被锁定'
+    LOCKED_BROADCAST: '%prefix% &e%player% &c锁定了全局聊天'
+    UNLOCKED_BROADCAST: '%prefix% &e%player% &a解锁了全局聊天'
+
+    ANTI_SWEAR_WORD_BLOCKED: '%prefix% &c消息已被反脏话系统删除'
+    ANTI_SWEAR_ADMIN_NOTIFY: '%prefix% &c%player% &7试图说: &b%word%'
+
+    COMMAND_BLOCKED: '%prefix% &c该命令已被禁用'
+
+  SCOREBOARD:
+    TOGGLE: '%prefix% &a你在计分板上有 %value% '
+
+  DOUBLE_JUMP:
+    COOLDOWN_ACTIVE: '%prefix% &c你必须等待 &e%time%s &cto 才能再次使用二段跳！'
+
+  WORLD_EVENT_MODIFICATIONS:
+    ITEM_DROP: '%prefix% &c你不允许丢弃物品'
+    ITEM_PICKUP: '%prefix% &c你不允许捡起物品'
+    BLOCK_PLACE: '%prefix% &c你不允许放置方块'
+    BLOCK_BREAK: '%prefix% &c你不允许破坏方块'
+    BLOCK_INTERACT: '%prefix% &c你不允许使用它'
+    PLAYER_PVP: '%prefix% &c你不能在这PVP'
+
+  HOLOGRAMS:
+    EMPTY: '%prefix% &c没有找到任何全息图'
+    ALREADY_EXISTS: '%prefix% &c这里已经有了同名的全息图 &7(%name%)&c.'
+    INVALID_HOLOGRAM: '%prefix% &c没有全息图叫做 &7(%name%)&c.'
+    INVALID_LINE: '%prefix% &c没有找到全息图所在行'
+
+    SPAWNED: '%prefix% &7创建了新的全息图名叫 &b%name%&7.'
+    DESPAWNED: '%prefix% &7你删除了全息图名叫 &b%name%&7.'
+    MOVED: '%prefix% &7移动了全息图名叫 &b%name%&7.'
+
+    LINE_SET: '%prefix% &7设置了行&b%line%&7.'
+    ADDED_LINE: '%prefix% &7新增了一行'
+    REMOVED_LINE: '%prefix% &7删除了一行 &b%line%&7.'
+
+  ANTI_WORLD_DOWNLOADER:
+    ADMIN_NOTIFY: '%prefix% &f%player% &c客户端加入了 World Downloader 模组, 它的能力将受到我们系统的限制'

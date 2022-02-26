@@ -1,0 +1,65 @@
+#可以定义所有显示给玩家的BossShopPro信息
+#留空禁用消息
+#汉化时间2019年11月22日23:25
+#第一次修改时间 2020年8月4日
+#译者:MCbbsID:绿奈
+Main:
+  NoPermission: '&8&l『&6&lBS&b&lP&8&l』&r&c无权限'
+  AlreadyBought: '&8&l『&6&lBS&b&lP&8&l』&r&c你已购买!'
+  ShopNotExisting: '&8&l『&6&lBS&b&lP&8&l』&r&c此商店不存在...'
+  ShopItemNotExisting: '&8&l『&6&lBS&b&lP&8&l』&r&c此商店商品不存在...'
+  #打开任何商店的提示
+  OpenShop: ''
+  OpenShopOtherPlayer: '&8&l『&6&lBS&b&lP&8&l』&r&6为玩家 &a%player% &6打开商店 &b%shop%'
+  CloseShopOtherPlayer: '&8&l『&6&lBS&b&lP&8&l』&r&6关闭玩家 &a%player% &6打开的商店.'
+  #关闭任何商店的提示
+  CloseShop: ''
+  InventoryFull: '&8&l『&6&lBS&b&lP&8&l』&r&c你的背包中没有足够的可存放空间!'
+  PlayerNotFound: '&8&l『&6&lBS&b&lP&8&l』&r&c玩家 %name% 没有找到!!'
+  ClickSpamWarning: '&8&l『&6&lBS&b&lP&8&l』&r&c请等待 ％time_left％ 秒,直到可以再次使用它.'
+  OffensiveClickSpamWarning: '&8&l『&6&lBS&b&lP&8&l』&r&4警告:请不要快速点击!'
+  OffensiveClickSpamKick: '&8&l『&6&lBS&b&lP&8&l』&r&4你因为频繁点击遭到踢出!.'
+  NeedItemInHand: '&8&l『&6&lBS&b&lP&8&l』&r&c你必须右持一个必须品才能执行此命令.'
+  PrintedItemInfo: '&8&l『&6&lBS&b&lP&8&l』&r&6所有项目数据已成功保存在此处: &7''/plugins/BossShopPro/ItemDataStorage.yml''&6.'
+  ListAndSeparator: ' & '
+  ListOrSeparator: ' or '
+Economy:
+  NoAccount: '&8&l『&6&lBS&b&lP&8&l』&r&c!你没有经济账户'
+NotEnough:
+  Money: '&8&l『&6&lBS&b&lP&8&l』&r&c你没有足够的 &e金钱!'
+  Item: '&8&l『&6&lBS&b&lP&8&l』&r&c你没有足够的 &a物品'
+  Points: '&8&l『&6&lBS&b&lP&8&l』&r&c你没有足够的 &b点券'
+  Exp: '&8&l『&6&lBS&b&lP&8&l』&r&c你没有足够的 &6经验'
+  Or: '&8&l『&6&lBS&b&lP&8&l』&r&c你没有足够的 &8资源'
+Enchantment:
+  Invalid: '&8&l『&6&lBS&b&lP&8&l』&r&c你不能用这种附魔来附魔手上的物品'
+  EmptyHand: '&8&l『&6&lBS&b&lP&8&l』&r&c你需要拿着物品'
+Display:
+  Exp: '%levels% 经验'
+  Money: '%money% 金钱'
+  Points: '%points% 点券'
+  Item: '%items%'
+  ItemAll: '全部 %item%'
+  ItemAllBuy: '全部 %item%'
+  ItemAllEach: '单一 %value% '
+  Nothing: '无'
+  BungeeCordServer: '&8&l『&6&lBS&b&lP&8&l』&r服务器传送 %server%'
+  BungeeCordCommand: '&8&l『&6&lBS&b&lP&8&l』&rBungeeCord命令: %commands%'
+  Close: '&8&l『&6&lBS&b&lP&8&l』&r关闭商店'
+  Command: '&8&l『&6&lBS&b&lP&8&l』&r控制台命令: %commands%'
+  Custom: '&8&l『&6&lBS&b&lP&8&l』&r未知'
+  Enchantment: '&8&l『&6&lBS&b&lP&8&l』&r附魔: %type% 等级 %level%'
+  Permission: '&8&l『&6&lBS&b&lP&8&l』&r权限: %permissions%'
+  PlayerCommand: '&8&l『&6&lBS&b&lP&8&l』&r指令: %commands%'
+  PlayerCommandOp: '&8&l『&6&lBS&b&lP&8&l』&r指令Op: %commands%'
+  Shop: '&8&l『&6&lBS&b&lP&8&l』&r打开商店 %shop%'
+  Page: '&8&l『&6&lBS&b&lP&8&l』&r打开商店页面 %page%'
+Time:
+  Seconds: '%time% 秒'
+  Minutes: '%time% 分钟'
+  Hours: '%time% 小时'
+  Days: '%time% 天'
+  Weeks: '%time% 周'
+#你可以使 BossShopPro 将所有的物品名称转换为原版MC中包含的任何语言
+#需要安装LangUtils (https://www.spigotmc.org/resources/1-10-x-1-9-x-1-8-x-1-7-10-language-utils.8859/)
+Locale: zh_CN

@@ -1,0 +1,605 @@
+[19:39:08] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:39:09] [ServerMain/INFO]: Reloading ResourceManager: Default, bukkit
+[19:39:10] [Worker-Main-11/INFO]: Loaded 7 recipes
+[19:39:13] [Server thread/INFO]: Starting minecraft server version 1.18.1
+[19:39:13] [Server thread/INFO]: Loading properties
+[19:39:13] [Server thread/INFO]: This server is running CraftBukkit version 3427-Spigot-6edb62f-de95135 (MC: 1.18.1) (Implementing API version 1.18.1-R0.1-SNAPSHOT)
+[19:39:13] [Server thread/INFO]: Debug logging is disabled
+[19:39:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:39:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:39:13] [Server thread/INFO]: Default game type: SURVIVAL
+[19:39:13] [Server thread/INFO]: Generating keypair
+[19:39:13] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25004
+[19:39:14] [Server thread/INFO]: Using default channel type
+[19:39:15] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:39:19] [Server thread/WARN]: Legacy plugin OreTeleport v1.1.5 does not specify an api-version.
+[19:39:19] [Server thread/WARN]: Legacy plugin SpeechFilter v1.0 does not specify an api-version.
+[19:39:19] [Server thread/INFO]: [GraveStonesPlus] Loading 1 libraries... please wait
+[19:39:19] [Server thread/INFO]: [GraveStonesPlus] Loaded library C:\Users\YangXiaoMian\Desktop\TCB Work·þÎñ¶Ë\TCB_Work_Minecraft_Survice#1\libraries\org\openjdk\nashorn\nashorn-core\15.3\nashorn-core-15.3.jar
+[19:39:19] [Server thread/INFO]: [GraveStonesPlus] Loaded library C:\Users\YangXiaoMian\Desktop\TCB Work·þÎñ¶Ë\TCB_Work_Minecraft_Survice#1\libraries\org\ow2\asm\asm\7.3.1\asm-7.3.1.jar
+[19:39:19] [Server thread/INFO]: [GraveStonesPlus] Loaded library C:\Users\YangXiaoMian\Desktop\TCB Work·þÎñ¶Ë\TCB_Work_Minecraft_Survice#1\libraries\org\ow2\asm\asm-commons\7.3.1\asm-commons-7.3.1.jar
+[19:39:19] [Server thread/INFO]: [GraveStonesPlus] Loaded library C:\Users\YangXiaoMian\Desktop\TCB Work·þÎñ¶Ë\TCB_Work_Minecraft_Survice#1\libraries\org\ow2\asm\asm-analysis\7.3.1\asm-analysis-7.3.1.jar
+[19:39:19] [Server thread/INFO]: [GraveStonesPlus] Loaded library C:\Users\YangXiaoMian\Desktop\TCB Work·þÎñ¶Ë\TCB_Work_Minecraft_Survice#1\libraries\org\ow2\asm\asm-tree\7.3.1\asm-tree-7.3.1.jar
+[19:39:19] [Server thread/INFO]: [GraveStonesPlus] Loaded library C:\Users\YangXiaoMian\Desktop\TCB Work·þÎñ¶Ë\TCB_Work_Minecraft_Survice#1\libraries\org\ow2\asm\asm-util\7.3.1\asm-util-7.3.1.jar
+[19:39:20] [Server thread/INFO]: [OreTeleport] Loading OreTeleport v1.1.5
+[19:39:20] [Server thread/INFO]: [KnapsackToGo2] Loading KnapsackToGo2 v2022.1.26
+[19:39:20] [Server thread/INFO]: [KnapsackToGo2] ¿ªÊ¼³õÊ¼»¯
+[19:39:20] [Server thread/INFO]: [KnapsackToGo2] ÊÍ·ÅÎÄ¼þµ½:C:\Users\YangXiaoMian\Desktop\TCB Work·þÎñ¶Ë\TCB_Work_Minecraft_Survice#1\plugins\KnapsackToGo2\DataManager.yml
+[19:39:20] [Server thread/INFO]: [KnapsackToGo2] ÊÍ·ÅÎÄ¼þµ½:C:\Users\YangXiaoMian\Desktop\TCB Work·þÎñ¶Ë\TCB_Work_Minecraft_Survice#1\plugins\KnapsackToGo2\SynchronizationConfig.yml
+[19:39:20] [Server thread/INFO]: [KnapsackToGo2] ÊÍ·ÅÎÄ¼þµ½:C:\Users\YangXiaoMian\Desktop\TCB Work·þÎñ¶Ë\TCB_Work_Minecraft_Survice#1\plugins\KnapsackToGo2\LoadingRandomMessages.yml
+[19:39:20] [Server thread/INFO]: [KnapsackToGo2] ÊÍ·ÅÎÄ¼þµ½:C:\Users\YangXiaoMian\Desktop\TCB Work·þÎñ¶Ë\TCB_Work_Minecraft_Survice#1\plugins\KnapsackToGo2\DataManager\FileAdta1.0.jar
+[19:39:20] [Server thread/INFO]: [KnapsackToGo2] ÊÍ·ÅÎÄ¼þµ½:C:\Users\YangXiaoMian\Desktop\TCB Work·þÎñ¶Ë\TCB_Work_Minecraft_Survice#1\plugins\KnapsackToGo2\DataManager\MysqData1.8.jar
+[19:39:45] [Server thread/INFO]: [KnapsackToGo2] ³õÊ¼»¯Íê³É£¬×¼±¸¼ÓÔØ£¡
+[19:39:45] [Server thread/INFO]: [TreeCutter] Loading TreeCutter v1.2.0
+[19:39:45] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.1
+[19:39:45] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v3.0.0-SNAPSHOT
+[19:39:45] [Server thread/INFO]: [Seasons] Loading Seasons v2.5.0
+[19:39:45] [Server thread/INFO]: [ActionHealth] Loading ActionHealth v3.5.6
+[19:39:45] [Server thread/INFO]: [SpeechFilter] Loading SpeechFilter v1.0
+[19:39:45] [Server thread/INFO]: [GSit] Loading GSit v[5.3.0.0]
+[19:39:45] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.1.1
+[19:39:45] [Server thread/INFO]: [ViaVersion] ViaVersion 4.1.1 is now loaded, injecting!
+[19:39:45] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[19:39:45] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[19:39:45] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[19:39:45] [Server thread/INFO]: [GraveStonesPlus] Loading GraveStonesPlus v1.2.1
+[19:39:45] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.0
+[19:39:46] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[19:39:46] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[19:39:46] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[19:39:46] [Via-Mappingloader-7/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[19:39:46] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[19:39:46] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[19:39:46] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.7.0
+[19:39:46] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.18.1) has not yet been tested! Proceed with caution.
+[19:39:48] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.1.10
+[19:39:48] [Server thread/INFO]: [Orebfuscator] Loading Orebfuscator v5.2.4
+[19:39:48] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[19:39:48] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.8+6008-1246d61
+[19:39:49] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2dd2c455]
+[19:39:49] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[19:39:49] [Server thread/INFO]: [Images] Loading Images v2.2.4
+[19:39:49] [Server thread/INFO]: [ChestCommands] Loading ChestCommands v4.0.3
+[19:39:49] [Server thread/INFO]: [BossShopPro] Loading BossShopPro v2.0.9
+[19:39:49] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v20.4
+[19:39:49] [Server thread/INFO]: [DeluxeHub] Loading DeluxeHub v3.4.0
+[19:39:49] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.2
+[19:39:49] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.19.2
+[19:39:49] [Server thread/INFO]: [TAB] Loading TAB v3.0.2
+[19:39:49] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.19.2
+[19:39:49] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.0
+[19:39:49] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[19:39:49] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.0[m
+[19:39:49] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[19:39:49] [Server thread/INFO]: [m
+[19:39:49] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:39:50] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:39:50] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:39:50] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:39:50] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1451ms)
+[19:39:50] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.7.0
+[19:39:50] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[19:39:50] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[19:39:50] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.2 which is not a depend or softdepend of this plugin.
+[19:39:50] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[19:39:50] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[19:39:50] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[19:39:50] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[19:39:50] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.8+6008-1246d61
+[19:39:50] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:39:50] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[19:39:51] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R1.PaperweightAdapter as the Bukkit adapter
+[19:39:51] [Server thread/INFO]: [WorldEdit] ====================================================
+[19:39:51] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[19:39:51] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[19:39:51] [Server thread/INFO]: [WorldEdit]   
+[19:39:51] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[19:39:51] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[19:39:51] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[19:39:51] [Server thread/INFO]: [WorldEdit]   
+[19:39:51] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[19:39:51] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[19:39:51] [Server thread/INFO]: [WorldEdit]   
+[19:39:51] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[19:39:51] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[19:39:51] [Server thread/INFO]: [WorldEdit]   
+[19:39:51] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[19:39:51] [Server thread/INFO]: [WorldEdit] ====================================================
+[19:39:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:39:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:39:51] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[19:39:51] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[19:39:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:39:51] [Server thread/INFO]: Preparing level "read"
+[19:39:52] [Server thread/INFO]: -------- World Settings For [read] --------
+[19:39:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:39:52] [Server thread/INFO]: Item Merge Radius: 4.0
+[19:39:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:39:52] [Server thread/INFO]: View Distance: 4
+[19:39:52] [Server thread/INFO]: Simulation Distance: 10
+[19:39:52] [Server thread/INFO]: Experience Merge Radius: 8.0
+[19:39:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Entity Activation Range: An 15 / Mo 20 / Ra 24 / Mi 2 / Tiv false / Isa false
+[19:39:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:39:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:39:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:39:52] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[19:39:52] [Server thread/INFO]: Max TNT Explosions: 100
+[19:39:52] [Server thread/INFO]: Arrow Despawn Rate: 300 Trident Respawn Rate:1200
+[19:39:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:39:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[19:39:52] [Server thread/INFO]: Mob Spawn Range: 4
+[19:39:52] [Server thread/INFO]: -------- World Settings For [read_nether] --------
+[19:39:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:39:52] [Server thread/INFO]: Item Merge Radius: 4.0
+[19:39:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:39:52] [Server thread/INFO]: View Distance: 4
+[19:39:52] [Server thread/INFO]: Simulation Distance: 10
+[19:39:52] [Server thread/INFO]: Experience Merge Radius: 8.0
+[19:39:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Entity Activation Range: An 15 / Mo 20 / Ra 24 / Mi 2 / Tiv false / Isa false
+[19:39:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:39:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:39:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:39:52] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[19:39:52] [Server thread/INFO]: Max TNT Explosions: 100
+[19:39:52] [Server thread/INFO]: Arrow Despawn Rate: 300 Trident Respawn Rate:1200
+[19:39:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:39:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[19:39:52] [Server thread/INFO]: Mob Spawn Range: 4
+[19:39:52] [Server thread/INFO]: -------- World Settings For [read_the_end] --------
+[19:39:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:39:52] [Server thread/INFO]: Item Merge Radius: 4.0
+[19:39:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:39:52] [Server thread/INFO]: View Distance: 4
+[19:39:52] [Server thread/INFO]: Simulation Distance: 10
+[19:39:52] [Server thread/INFO]: Experience Merge Radius: 8.0
+[19:39:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:39:52] [Server thread/INFO]: Entity Activation Range: An 15 / Mo 20 / Ra 24 / Mi 2 / Tiv false / Isa false
+[19:39:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:39:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:39:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:39:52] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[19:39:52] [Server thread/INFO]: Max TNT Explosions: 100
+[19:39:52] [Server thread/INFO]: Arrow Despawn Rate: 300 Trident Respawn Rate:1200
+[19:39:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:39:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[19:39:52] [Server thread/INFO]: Mob Spawn Range: 4
+[19:39:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:39:53] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:39:53] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[19:39:53] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[19:39:54] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:39:54] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:39:55] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[19:39:55] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:39:56] [Worker-Main-13/INFO]: Preparing spawn area: 21%
+[19:39:56] [Worker-Main-12/INFO]: Preparing spawn area: 31%
+[19:39:57] [Worker-Main-11/INFO]: Preparing spawn area: 56%
+[19:39:57] [Worker-Main-9/INFO]: Preparing spawn area: 74%
+[19:39:57] [Server thread/INFO]: Time elapsed: 5289 ms
+[19:39:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:39:58] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:39:58] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:39:58] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:39:59] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:39:59] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[19:40:00] [Worker-Main-9/INFO]: Preparing spawn area: 2%
+[19:40:00] [Worker-Main-14/INFO]: Preparing spawn area: 13%
+[19:40:01] [Worker-Main-13/INFO]: Preparing spawn area: 41%
+[19:40:01] [Worker-Main-10/INFO]: Preparing spawn area: 61%
+[19:40:02] [Worker-Main-8/INFO]: Preparing spawn area: 68%
+[19:40:02] [Worker-Main-9/INFO]: Preparing spawn area: 72%
+[19:40:03] [Worker-Main-12/INFO]: Preparing spawn area: 78%
+[19:40:03] [Worker-Main-10/INFO]: Preparing spawn area: 82%
+[19:40:04] [Worker-Main-12/INFO]: Preparing spawn area: 85%
+[19:40:04] [Worker-Main-12/INFO]: Preparing spawn area: 86%
+[19:40:05] [Worker-Main-13/INFO]: Preparing spawn area: 89%
+[19:40:05] [Worker-Main-10/INFO]: Preparing spawn area: 93%
+[19:40:06] [Worker-Main-10/INFO]: Preparing spawn area: 96%
+[19:40:06] [Server thread/INFO]: Time elapsed: 8904 ms
+[19:40:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:40:07] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:40:07] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:40:07] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[19:40:08] [Worker-Main-13/INFO]: Preparing spawn area: 18%
+[19:40:08] [Worker-Main-8/INFO]: Preparing spawn area: 43%
+[19:40:09] [Worker-Main-8/INFO]: Preparing spawn area: 58%
+[19:40:09] [Worker-Main-10/INFO]: Preparing spawn area: 79%
+[19:40:10] [Worker-Main-11/INFO]: Preparing spawn area: 93%
+[19:40:10] [Server thread/INFO]: Time elapsed: 3712 ms
+[19:40:10] [Server thread/INFO]: [OreTeleport] Enabling OreTeleport v1.1.5
+[19:40:10] [Server thread/INFO]: [OreTeleport]¿óÎï´«ËÍ²å¼þÒÑ¿ªÆô[m
+[19:40:10] [Server thread/INFO]: [OreTeleport]×÷Õß£º150149  QQ£º1802796278[m
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] Enabling KnapsackToGo2 v2022.1.26
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] ¿ªÊ¼¼ÓÔØÊý¾Ý¹ÜÀíÆ÷£¡
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] ÊÍ·ÅFileSynchronization.propertiesµ½:C:\Users\YangXiaoMian\Desktop\TCB Work·þÎñ¶Ë\TCB_Work_Minecraft_Survice#1\plugins\KnapsackToGo2\FileSynchronization.properties
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] ----------------------------
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] ÏÂÃæÊÇÍ¬²½ÎÄ¼þ¼ÐÐÅÏ¢£º
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] Êý¾Ý±£´æÂ·¾¶ÊÇ:C:\KnapsackToGo2.Data
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] ----------------------------
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] Êý¾Ý¹ÜÀíÆ÷¼ÓÔØÍê³É£¡
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] ¿ªÊ¼¼ÓÍ¬²½Ö´ÐÐÆ÷¡£
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] Í¬²½±³°ü¿ªÆô
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] Í¬²½Ä©Ó°Ïä¿ªÆô
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] Í¬²½ÑªÁ¿±¥Ê³¶È¿ªÆô
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] Í¬²½Ò©Ë®Ð§¹û¿ªÆô
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] Í¬²½¾­Ñé¿ªÆô
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] Í¬²½³É¾Í¿ªÆô
+[19:40:10] [Server thread/INFO]: [KnapsackToGo2] Í¬²½Ö´ÐÐÆ÷¼ÓÔØÍê³É¡£
+[19:40:10] [Server thread/INFO]: [TreeCutter] Enabling TreeCutter v1.2.0
+[19:40:10] [Server thread/INFO]: [TreeCutter] TreeCutter is enable
+[19:40:10] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.1
+[19:40:10] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.viaversion.viaversion.api.type.Type from ViaVersion v4.1.1 which is not a depend or softdepend of this plugin.
+[19:40:10] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[19:40:10] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v3.0.0-SNAPSHOT
+[19:40:10] [Server thread/INFO]: [Seasons] Enabling Seasons v2.5.0
+[19:40:10] [Server thread/INFO]: [Seasons] 2 worlds have been disabled, 0 weathers have been disabled and 0 have been disabled
+[19:40:10] [Server thread/INFO]: [Seasons] Preparing to load...
+[19:40:10] [Server thread/INFO]: [Seasons] Seasons has detected modern Spigot (1.13+) and will adapt to use 1.13 implementation
+[19:40:10] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.6
+[19:40:10] [Server thread/INFO]: [SpeechFilter] Enabling SpeechFilter v1.0
+[19:40:10] [Server thread/INFO]: [0;36;1m[SpeechFilter]·¢ÑÔÀ¹½ØÒÑ¼ÓÔØ[m
+[19:40:10] [Server thread/INFO]: [GSit] Enabling GSit v[5.3.0.0]
+[19:40:10] [Server thread/INFO]: Plugin.plugin-enabled[m
+[19:40:11] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.1.1
+[19:40:11] [Server thread/INFO]: [GraveStonesPlus] Enabling GraveStonesPlus v1.2.1
+[19:40:11] [Server thread/WARN]: [GraveStonesPlus] Loaded class com.comphenix.protocol.events.PacketListener from ProtocolLib v4.7.0 which is not a depend or softdepend of this plugin.
+[19:40:11] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.1.10
+[19:40:11] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1mDetected Minecraft [0;33;1mv1_18_R1[0;32;1m, using [0;33;1mMappingSpigotSkinRefresher[0;32;1m.[m
+[19:40:11] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m-------------------------/Warning\-------------------------[m
+[19:40:11] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mThis plugin is running in Bungee mode![m
+[19:40:11] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [mYou have to do all configuration at config file[m
+[19:40:11] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [minside your Bungeecord server.[m
+[19:40:11] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m(Bungeecord-Server/plugins/SkinsRestorer/).[m
+[19:40:11] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m-------------------------\Warning/-------------------------[m
+[19:40:11] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.2.4
+[19:40:12] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[19:40:12] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[19:40:12] [Server thread/INFO]: [Multiverse-Core] ¡ìaWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[19:40:12] [Server thread/INFO]: -------- World Settings For [world] --------
+[19:40:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:40:12] [Server thread/INFO]: Item Merge Radius: 4.0
+[19:40:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:40:12] [Server thread/INFO]: View Distance: 4
+[19:40:12] [Server thread/INFO]: Simulation Distance: 10
+[19:40:12] [Server thread/INFO]: Experience Merge Radius: 8.0
+[19:40:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:40:12] [Server thread/INFO]: Entity Activation Range: An 15 / Mo 20 / Ra 24 / Mi 2 / Tiv false / Isa false
+[19:40:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:40:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:40:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:40:12] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[19:40:12] [Server thread/INFO]: Max TNT Explosions: 100
+[19:40:12] [Server thread/INFO]: Arrow Despawn Rate: 300 Trident Respawn Rate:1200
+[19:40:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:40:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[19:40:12] [Server thread/INFO]: Mob Spawn Range: 4
+[19:40:12] [Server thread/INFO]: Preparing start region for dimension minecraft:world
+[19:40:13] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[19:40:13] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:40:13] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[19:40:15] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[19:40:15] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:40:15] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[19:40:15] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:40:15] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[19:40:16] [Worker-Main-10/INFO]: Preparing spawn area: 23%
+[19:40:17] [Worker-Main-12/INFO]: Preparing spawn area: 30%
+[19:40:17] [Worker-Main-14/INFO]: Preparing spawn area: 43%
+[19:40:17] [Worker-Main-8/INFO]: Preparing spawn area: 66%
+[19:40:18] [Worker-Main-8/INFO]: Preparing spawn area: 78%
+[19:40:18] [Worker-Main-11/INFO]: Preparing spawn area: 89%
+[19:40:19] [Worker-Main-13/INFO]: Preparing spawn area: 99%
+[19:40:19] [Server thread/INFO]: Time elapsed: 7371 ms
+[19:40:19] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[19:40:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:40:19] [Server thread/INFO]: Item Merge Radius: 4.0
+[19:40:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:40:19] [Server thread/INFO]: View Distance: 4
+[19:40:19] [Server thread/INFO]: Simulation Distance: 10
+[19:40:19] [Server thread/INFO]: Experience Merge Radius: 8.0
+[19:40:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:40:19] [Server thread/INFO]: Entity Activation Range: An 15 / Mo 20 / Ra 24 / Mi 2 / Tiv false / Isa false
+[19:40:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:40:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:40:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:40:19] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[19:40:19] [Server thread/INFO]: Max TNT Explosions: 100
+[19:40:19] [Server thread/INFO]: Arrow Despawn Rate: 300 Trident Respawn Rate:1200
+[19:40:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:40:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[19:40:19] [Server thread/INFO]: Mob Spawn Range: 4
+[19:40:20] [Server thread/INFO]: Preparing start region for dimension minecraft:world_the_end
+[19:40:20] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:40:20] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:40:21] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[19:40:21] [Worker-Main-9/INFO]: Preparing spawn area: 8%
+[19:40:22] [Worker-Main-10/INFO]: Preparing spawn area: 13%
+[19:40:22] [Worker-Main-14/INFO]: Preparing spawn area: 25%
+[19:40:23] [Worker-Main-12/INFO]: Preparing spawn area: 58%
+[19:40:23] [Worker-Main-11/INFO]: Preparing spawn area: 77%
+[19:40:24] [Worker-Main-13/INFO]: Preparing spawn area: 93%
+[19:40:24] [Server thread/INFO]: Time elapsed: 4097 ms
+[19:40:24] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[19:40:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[19:40:24] [Server thread/INFO]: Item Merge Radius: 4.0
+[19:40:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[19:40:24] [Server thread/INFO]: View Distance: 4
+[19:40:24] [Server thread/INFO]: Simulation Distance: 10
+[19:40:24] [Server thread/INFO]: Experience Merge Radius: 8.0
+[19:40:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: Potato Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: Vine Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[19:40:24] [Server thread/INFO]: Entity Activation Range: An 15 / Mo 20 / Ra 24 / Mi 2 / Tiv false / Isa false
+[19:40:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[19:40:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[19:40:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[19:40:24] [Server thread/INFO]: Tile Max Tick Time: 1000ms Entity max Tick Time: 1000ms
+[19:40:24] [Server thread/INFO]: Max TNT Explosions: 100
+[19:40:24] [Server thread/INFO]: Arrow Despawn Rate: 300 Trident Respawn Rate:1200
+[19:40:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[19:40:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: true
+[19:40:24] [Server thread/INFO]: Mob Spawn Range: 4
+[19:40:24] [Server thread/INFO]: Preparing start region for dimension minecraft:world_nether
+[19:40:25] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[19:40:25] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[19:40:25] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[19:40:25] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[19:40:26] [Worker-Main-9/INFO]: Preparing spawn area: 4%
+[19:40:26] [Worker-Main-8/INFO]: Preparing spawn area: 13%
+[19:40:27] [Worker-Main-11/INFO]: Preparing spawn area: 38%
+[19:40:27] [Worker-Main-11/INFO]: Preparing spawn area: 68%
+[19:40:28] [Worker-Main-13/INFO]: Preparing spawn area: 76%
+[19:40:28] [Worker-Main-13/INFO]: Preparing spawn area: 79%
+[19:40:29] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[19:40:29] [Worker-Main-8/INFO]: Preparing spawn area: 86%
+[19:40:30] [Worker-Main-13/INFO]: Preparing spawn area: 90%
+[19:40:30] [Worker-Main-9/INFO]: Preparing spawn area: 93%
+[19:40:31] [Worker-Main-11/INFO]: Preparing spawn area: 96%
+[19:40:31] [Server thread/INFO]: Time elapsed: 7352 ms
+[19:40:31] [Server thread/INFO]: [Multiverse-Core] 6 - World(s) loaded.
+[19:40:31] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[19:40:31] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[19:40:31] [Server thread/INFO]: [Images] Enabling Images v2.2.4
+[19:40:31] [Server thread/INFO]: [Images] ProtocolLib detected. Enabling generic packet handling...
+[19:40:31] [placeholderapi-io-#0/WARN]: [PlaceholderAPI] Failed to download expansion information
+java.net.ConnectException: Connection timed out: connect
+	at sun.nio.ch.Net.connect0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:579) ~[?:?]
+	at sun.nio.ch.Net.connect(Net.java:568) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588) ~[?:?]
+	at java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at java.net.Socket.connect(Socket.java:583) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:183) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:498) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:603) ~[?:?]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:246) ~[?:?]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:351) ~[?:?]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:373) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589) ~[?:?]
+	at java.net.URL.openStream(URL.java:1161) ~[?:?]
+	at com.google.common.io.Resources$UrlByteSource.openStream(Resources.java:72) ~[guava-31.0.1-jre.jar:?]
+	at com.google.common.io.ByteSource.read(ByteSource.java:296) ~[guava-31.0.1-jre.jar:?]
+	at com.google.common.io.ByteSource$AsCharSource.read(ByteSource.java:486) ~[guava-31.0.1-jre.jar:?]
+	at com.google.common.io.Resources.toString(Resources.java:111) ~[guava-31.0.1-jre.jar:?]
+	at me.clip.placeholderapi.expansion.manager.CloudExpansionManager.lambda$fetch$4(CloudExpansionManager.java:180) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[19:40:31] [Server thread/INFO]: [ChestCommands] Enabling ChestCommands v4.0.3
+[19:40:31] [Server thread/INFO]: [ChestCommands] Hooked Vault
+[19:40:31] [Server thread/INFO]: [ChestCommands] Hooked PlaceholderAPI
+[19:40:31] [Server thread/INFO]: [BossShopPro] Enabling BossShopPro v2.0.9
+[19:40:31] [Server thread/INFO]: [BossShopPro] Loading data...
+[19:40:31] [Server thread/INFO]: [BossShopPro] Hooked into PlaceholderAPI.
+[19:40:31] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v20.4
+[19:40:32] [Server thread/INFO]: [0;37;1m[0;37;1m[m[CoreProtect] CoreProtect has been successfully enabled![0;37;1m[0;37;1m [m
+[19:40:32] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[19:40:32] [Server thread/INFO]: --------------------
+[19:40:32] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[19:40:32] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[19:40:32] [Server thread/INFO]: --------------------
+[19:40:32] [Server thread/INFO]: [DeluxeHub] Enabling DeluxeHub v3.4.0
+[19:40:32] [Server thread/INFO]: [DeluxeHub]  _   _            _          _    _ 
+[19:40:32] [Server thread/INFO]: [DeluxeHub] | \ |_ |  | | \/ |_ |_| | | |_)   _)
+[19:40:32] [Server thread/INFO]: [DeluxeHub] |_/ |_ |_ |_| /\ |_ | | |_| |_)   _)
+[19:40:32] [Server thread/INFO]: [DeluxeHub] 
+[19:40:32] [Server thread/INFO]: [DeluxeHub] Version: 3.4.0
+[19:40:32] [Server thread/INFO]: [DeluxeHub] Author: ItsLewizzz
+[19:40:32] [Server thread/INFO]: [DeluxeHub] 
+[19:40:32] [Server thread/INFO]: [DeluxeHub]  Hooked into PlaceholderAPI
+[19:40:32] [Server thread/INFO]: [DeluxeHub] Loaded custom menu 'serverselector'.
+[19:40:32] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_18_R1! Trying to find NMS support
+[19:40:32] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_18_R1' loaded!
+[19:40:32] [Server thread/INFO]: [NBTAPI] Found Gson: class com.google.gson.Gson
+[19:40:32] [Server thread/INFO]: [DeluxeHub] Loaded 13 plugin modules.
+[19:40:32] [Server thread/INFO]: [DeluxeHub] 
+[19:40:32] [Server thread/INFO]: [DeluxeHub] Successfully loaded in 163ms
+[19:40:32] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.2
+[19:40:32] [Server thread/INFO]: [Essentials] You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[19:40:32] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[19:40:32] [Server thread/INFO]: No kits found to migrate.
+[19:40:32] [Server thread/INFO]: Loaded 36926 items from items.json.
+[19:40:32] [Server thread/INFO]: Using locale zh_CN
+[19:40:32] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[19:40:32] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[19:40:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[19:40:32] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[19:40:32] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.19.2
+[19:40:32] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[19:40:32] [Server thread/INFO]: [EssentialsProtect] Starting Metrics. Opt-out using the global bStats config.
+[19:40:32] [Server thread/INFO]: [TAB] Enabling TAB v3.0.2
+[19:40:32] [Server thread/INFO]: [0;37;22m[TAB] Server version: 1.18.1 (v1_18_R1)[m
+[19:40:32] [Server thread/INFO]: [0;37;22m[TAB] Loaded NMS hook in 26ms[m
+[19:40:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tab [3.0.2]
+[19:40:33] [Server thread/INFO]: [0;32;1m[TAB] Enabled in 130ms[m
+[19:40:33] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.19.2
+[19:40:33] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[19:40:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:40:33] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[19:40:33] [Server thread/INFO]: Done (41.924s)! For help, type "help"
+[19:40:33] [Server thread/INFO]: [Seasons] Loaded world 'read' into Seasons!
+[19:40:33] [Server thread/INFO]: [Seasons] Loaded world 'world' into Seasons!
+[19:40:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: seasons [2.5.0]
+[19:40:33] [Server thread/INFO]: [Seasons] Seasons has been loaded!
+[19:40:33] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.18 (757)
+[19:40:33] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[19:40:33] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[19:40:33] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[19:40:33] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://jo0001.github.io/ViaSetup
+[19:40:33] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[19:40:33] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[19:40:33] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[19:40:33] [Craft Scheduler Thread - 4/INFO]: [Essentials] ¡ì6ÕýÔÚ»ñÈ¡°æ±¾ÐÅÏ¢...
+[19:40:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server [2.6.0]
+[19:40:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: servertime [1.0]
+[19:40:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic [2.0.1]
+[19:40:33] [Server thread/INFO]: [0;32;1m3 placeholder hook(s) registered![m
+[19:40:33] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[19:40:34] [Craft Scheduler Thread - 13/INFO]: [Vault] Checking for Updates ... 
+[19:40:34] [Craft Scheduler Thread - 13/INFO]: [Vault] No new version available
+[19:40:34] [Server thread/WARN]: [GraveStonesPlus] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
+[19:40:34] [Server thread/INFO]: [GraveStonesPlus] Successfully hooked into vault economy!
+[19:40:34] [Server thread/INFO]: [GraveStonesPlus] Hooked into vault permissions
+[19:40:34] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[19:40:34] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +==================+[m
+[19:40:34] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |   SkinsRestorer  |[m
+[19:40:34] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |------------------|[m
+[19:40:34] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    |   [0;33;1mBungee Mode[0;32;1m    |[m
+[19:40:34] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    +==================+[m
+[19:40:34] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[19:40:34] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;36;1m    Current version: [0;32;1m14.1.10[m
+[19:40:34] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m    This is the latest version![m
+[19:40:34] [Craft Scheduler Thread - 3/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [m[0;32;1m----------------------------------------------[m
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '6' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '116' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '321' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '408' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/ERROR]: [BossShopPro] Mistake in Config: '160' is not a valid 'id'. Unable to find a fitting material.
+[19:40:34] [Craft Scheduler Thread - 13/INFO]: [BossShopPro] Loaded 1 Shops!
+[19:40:35] [Craft Scheduler Thread - 13/INFO]: [Images] Loaded 0 images...
+[19:40:35] [Craft Scheduler Thread - 5/INFO]: [GraveStonesPlus] Failed to check for update for GraveStonesPlus!
+[19:40:54] [Craft Scheduler Thread - 0/INFO]: [PlaceholderAPI] Failed to check for updates on spigot.
+[19:40:55] [Server thread/WARN]: [ViaVersion] Could not check for updates, check your connection.
+[19:50:06] [Thread-1/INFO]: Stopping server

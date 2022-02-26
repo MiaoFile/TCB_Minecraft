@@ -1,0 +1,14 @@
+# These are the fractional chances of each weather occurring on a new day. They do not need to add up to 100 but there
+
+version: 1.0
+beautiful: 20
+breezy: 15
+chilly: 15
+rainy: 10
+scorching: 10
+hot: 20
+warm: 25
+cold: 40
+stormy: 10
+freezing: 15
+snowy: 15

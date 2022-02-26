@@ -1,0 +1,427 @@
+ShopName: Menu
+DisplayName: '&e&l生存子服一菜单'
+signs:
+  text: '[Menu]'
+  NeedPermissionToCreateSign: true
+shop:
+
+
+  TreeDiagramA1:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 1
+
+
+  TreeDiagramA2:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 2
+
+
+  TreeDiagramA3:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - 'lore:#'
+    - id:102
+    - durability:1
+    - amount:1
+    ExtraPermission: '&4&l我就是个边框'
+    InventoryLocation: 3
+
+
+  TreeDiagramA4:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 4
+
+
+  TreeDiagramA5:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 5
+
+
+  TreeDiagramA6:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+    PriceType: free
+    MenuItem:
+    - name:&e我是默认名
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 6
+
+
+  TreeDiagramA7:
+    RewardType: playercommand
+    Reward:
+    - cc open cs
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - 'lore:#'
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 7
+
+
+  TreeDiagramA8:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    ExtraPermission: '102:1'
+    InventoryLocation: 8
+
+
+  TreeDiagramA9:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 9
+
+
+  TreeDiagramB1:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 10
+
+
+  TreeDiagramB9:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 18
+
+
+  TreeDiagramC1:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 19
+
+
+  TreeDiagramC3:
+    RewardType: playercommand
+    Reward:
+    - seasons
+
+    PriceType: free
+    MenuItem:
+    - name:&e季节查看
+    - 'lore:显示当前季节'
+    - id:6
+    - amount:1
+    InventoryLocation: 21
+
+
+  TreeDiagramC7:
+    RewardType: playercommand
+    Reward:
+    - cc open cs
+
+    PriceType: free
+    MenuItem:
+    - name:&e传送
+    - 'lore:点击快速传送地图'
+    - id:116
+    - amount:1
+    InventoryLocation: 25
+
+
+  TreeDiagramC9:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 27
+
+
+  TreeDiagramD1:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 28
+
+
+  TreeDiagramD3:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&e友情提示
+    - 'lore:&c&l/sit &c坐下#&c&l/back &c回到上个地点#&c&l/bs &c打开生存子服一菜单#'
+    - id:321
+    - amount:1
+    InventoryLocation: 30
+
+
+  TreeDiagramD7:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&e保留用
+    - id:408
+    - amount:1
+    InventoryLocation: 34
+
+
+  TreeDiagramD9:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 36
+
+
+  TreeDiagramE1:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 37
+
+
+  TreeDiagramE9:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 45
+
+
+  TreeDiagramF1:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 46
+
+
+  TreeDiagramF2:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 47
+
+
+  TreeDiagramF3:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 48
+
+
+  TreeDiagramF4:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&e我是默认名
+    - id:102
+    - durability:1
+    - amount:1
+    ExtraPermission: '&4&l我就是个边框'
+    InventoryLocation: 49
+
+
+  TreeDiagramF5:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 50
+
+
+  TreeDiagramF6:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 51
+
+
+  TreeDiagramF7:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 52
+
+
+  TreeDiagramF8:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 53
+
+
+  TreeDiagramF9:
+    RewardType: command
+    Reward:
+    - BS-free无奖励标记
+
+    PriceType: free
+    MenuItem:
+    - name:&4&l我就是个边框
+    - id:102
+    - durability:1
+    - amount:1
+    InventoryLocation: 54
