@@ -1,4 +1,4 @@
-<img src="https://cdn-image.miaofile.com/file/acgfunimage/2022/02/15/TCB-Work.png">
+<img src="https://cos.cdn.image.tcbmc.cc/uploads/2022/06/02/6298a4a3255ba.png">
 
 <div align="center">
   <h1>TCB Work's Minecraft Sever</h1>
